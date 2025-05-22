@@ -25,5 +25,5 @@ Future Improvements
   - Optimize parameters like alpha, beta, and evaporation rate.
   - Add animation for pheromone updates.
 
-Acknowledgment:
+# Acknowledgment
    Inspired by real-world behavior of ant colonies and classical ACO research. 
