@@ -1,7 +1,7 @@
 # Ant-Colony-Optimization-ACO-for-Traveling-Salesman-Problem-TSP-
 This project uses Ant Colony Optimization (ACO) in Python to solve the Traveling Salesman Problem (TSP). It simulates ants finding the shortest path by updating pheromone trails, showing how teamwork and shared information can help solve complex routing problems.
 
-# What is Ant Colony Optimization?
+## What is Ant Colony Optimization?
 ACO is a nature-inspired metaheuristic algorithm based on the behavior of real ants searching for the shortest path between food sources and their nest. It uses simulated pheromone trails and probabilistic movement to explore paths, update knowledge, and converge to optimal or near-optimal solutions.
 
 # Features
