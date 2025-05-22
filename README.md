@@ -26,5 +26,4 @@ Future Improvements
   - Add animation for pheromone updates.
 
 Acknowledgment
-
-  Inspired by real-world behavior of ant colonies and classical ACO research. 
+  - Inspired by real-world behavior of ant colonies and classical ACO research. 
