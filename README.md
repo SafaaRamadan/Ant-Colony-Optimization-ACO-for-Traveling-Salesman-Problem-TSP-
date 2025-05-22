@@ -1,21 +1,29 @@
 # Ant-Colony-Optimization-ACO-for-Traveling-Salesman-Problem-TSP-
 This project uses Ant Colony Optimization (ACO) in Python to solve the Traveling Salesman Problem (TSP). It simulates ants finding the shortest path by updating pheromone trails, showing how teamwork and shared information can help solve complex routing problems.
 
-Project Overview:
-Ant Colony Optimization is a probabilistic technique inspired by the behavior of real ants seeking paths between their colony and food sources. This project implements ACO to solve the TSP, where the goal is to find the shortest possible route visiting each city exactly once and returning to the origin city.
+What is Ant Colony Optimization?
+ACO is a nature-inspired metaheuristic algorithm based on the behavior of real ants searching for the shortest path between food sources and their nest. It uses simulated pheromone trails and probabilistic movement to explore paths, update knowledge, and converge to optimal or near-optimal solutions.
 
-Features:
-  Flexible number of cities and ants.
-  Real-time tracking of best path and pheromone updates.
-  Visualization of pheromone matrices as heatmaps.
-  Integration with Google Colab’s file download feature for exporting results.
-  Modular functions to easily customize and extend the algorithm.
-
+Features
+  - ACO implementation for TSP from scratch using NumPy.
+  - Tracking of best paths and costs per iteration.
+  - Snapshot of pheromone matrices every 10 iterations.
+  - Heatmap visualizations using Seaborn and Matplotlib.
+  - Downloadable heatmaps for reports or presentations.
 
 How It Works
-  Generate Cities: A random distance map is created between cities.
-  Drop Ants: Each ant starts at city 0 and visits all other cities.
-  Choose Next City: Ants pick the next city based on pheromone strength and distance (closer cities and stronger trails are preferred).
-  Complete the Tour: Ants return to the starting city after visiting all others.
-  Update Pheromones: Paths with shorter distances get more pheromone added, while others fade over time.
-  Repeat: This process runs for many iterations. Over time, ants follow better paths, and the best path is found.
+  - Generate a Distance Matrix: Cities are randomly generated with distances between them.
+  - Initialize Pheromones: All edges start with equal pheromone levels.
+  - Simulate Ants: Each ant builds a tour based on pheromone and distance.
+  - Update Pheromones: Trails are updated using a combination of evaporation and reinforcement.
+  - Track Best Path: The best path and cost are recorded at each iteration.
+  - Visualize: Every 10 iterations, a pheromone matrix snapshot and heatmap are saved.
+
+Future Improvements
+  - Add GUI for city selection.
+  - Allow loading real-world city data.
+  - Optimize parameters like alpha, beta, and evaporation rate.
+  - Add animation for pheromone updates.
+
+Acknowledgments
+Inspired by real-world behavior of ant colonies and classical ACO research. 
